@@ -1,0 +1,737 @@
+*{
+	margin: 0;padding: 0;list-style: none;text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+h6{
+ font-size: 26px;
+ font-family: "微软雅黑";
+ color: #8F8F8F;
+ height: 26px;
+ line-height: 26px;
+ margin-bottom: 20px;
+}
+h6 a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	padding: 0 13px;
+	color: #545454;
+	display: inline-block;
+}
+.box{
+	width: 972px;
+	position: relative;
+	left: 50%;
+	margin-left: -486px;
+}
+.head{
+	height: 60px;
+	line-height: 60px;
+	background-color: #F5F5F5;
+	font-size: 0;
+}
+.head p{
+	display: inline-block;
+}
+.head p img{
+	vertical-align: middle;
+	margin-right: 180px;
+}
+.head p span{
+	padding-left: 20px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-left: 40px;
+}
+.head p .s1{
+	background: url(tp/登录.jpg) no-repeat left center;
+}
+.head p .s2{
+	background: url(tp/记录.jpg) no-repeat left center;
+}
+.head p .s3{
+	background: url(tp/上传.jpg) no-repeat left center;
+}
+.nv{
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 3px solid #E5E5E5;
+	clear: both;
+}
+.nv ul{
+	width: 700px;
+}
+.nv ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+.nv ul li a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #6F6F6F;
+}
+.nv ul li span{
+	padding-right: 10px;
+	background: url(三角.jpg) no-repeat right center;
+	margin-right: 10px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #6E6E6E;
+}
+.nv ul li em{
+	font-style: normal;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #6E6E6E;
+}
+.nv p{
+	float: right;
+	width: 150px;
+}
+.nv p a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:	#555555;
+}
+.con1{
+	clear: both;
+	margin-top: 20px;
+}
+.con1 li{
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.con1 li .p{
+	position: relative;
+	margin-bottom: 20px;
+}
+.con1 li .p1{
+	position: absolute;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 74px;
+	margin-left: 5px;
+	left: 0;
+	bottom: 130px;
+	color: #ffff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background: url(tp/播放.jpg) no-repeat left center;
+}
+.con1 li .p2{
+	position: absolute;
+	left: 74px;
+	top: 222px;
+	font-size: 12px;
+	font-family: "宋体";
+	height: 17px;
+	line-height: 17px;
+	color: #ffff;
+}
+.con1 li .p2 span{
+	padding: 0 15px;
+}
+.con1 li .p2 .span1{
+	background: url(tp/奋斗.jpg) no-repeat left center;
+}
+.con1 li .p2 .span2{
+	background: url(tp/sm.jpg) no-repeat left center;
+}
+.con1 li .p2 .span3{
+	background: url(tp/lx.jpg) no-repeat left center;
+}
+.con1 li div p{
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #ffff;
+}
+.con1 li div .img{
+	margin-right: 15px;
+}
+.con1 li div span{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.con1 li p{
+	position: relative;
+	color: #ffff;
+	margin-bottom: 20px;
+}
+.con1 li .pp{
+	margin-bottom: 0;
+}
+.con1 li p .sp1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.con1 li .pp span{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.con1 .xc{
+	margin-right: 0;
+}
+.pc{
+	clear: both;
+	margin-top: 49px;
+}
+.pc h6{
+ font-size: 26px;
+ font-family: "微软雅黑";
+ color: #8F8F8F;
+ height: 26px;
+ line-height: 26px;
+ margin-bottom: 20px;
+}
+.pc h6 a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	padding: 0 13px;
+	color: #545454;
+	display: inline-block;
+}
+.pc h6 .a1{
+	margin-left: 20px;
+}
+.pc h6 a:hover{
+	background: #05A6E0;
+	color: #ffff;
+}
+.pc ul li{
+	width: 200px;
+	height: 190px;
+	float: left;
+	margin-right: 20px;
+	background: #F5F5F5;
+}
+.pc li .p1{
+	position: relative;
+	margin-bottom: 11px;
+}
+.pc .p1 span{
+ position: absolute;
+ right: 5px;
+ bottom: 5px;
+ color: #ffff;
+}
+.pc p{
+	font-size: 14px;
+	color: #535353;
+}
+.pc .p2{
+	font-size: 12px;
+	color: #8D8D8D;
+}
+.pc ul .l1{
+	width: 90px;
+	height: 130px;
+	margin-right: 0;
+	font-size: 18px;
+	color: #605353;
+	text-align:center;
+	padding-top: 60px;
+}
+.zy{
+	padding-top: 74px;
+	clear: both;
+}
+.zy .top p{
+	width: 84px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	padding: 0 18px;
+	margin-bottom: 20px;
+}
+.zy .top p:hover{
+	background: #05A6E0;
+	color: #FEF3F1;
+}
+.zy .bottom{
+	clear: both;
+	margin-top: 20px;
+}
+.zy .left{
+	width: 660px;
+	float: left;
+}
+.zy .left li{
+	width: 195px;
+	height: 190px;
+	float: left;
+	margin-right: 20px;
+	padding-left: 5px;
+	background: url(tp/泡沫小姐.jpg) #F5F5F5 no-repeat center top;
+	position: relative;
+	margin-bottom: 20px;
+}
+.zy .left li .p1{
+	margin-top: 97px;
+}
+.zy .left li .p2{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #8F8F8F;
+	position: absolute;
+	left: 41px;
+	top: 114px;
+}
+.zy .left li .p3{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #535353;
+	line-height: 21px;
+}
+.zy .left li .p4{
+	color: #8F8F8F;
+	font-size: 12px;
+	line-height: 19px;
+	background: url(tp/sm.jpg) no-repeat left center;
+	padding-left: 15px;
+}
+.zy .right{
+	float: left;
+	width: 252px;
+}
+.zy .right li{
+	background: url(tp/异地恋.jpg) no-repeat left center;
+	padding-left: 100px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.zy .right li p{
+	font-size: 14px;
+	line-height: 25px;
+}
+.dsj{
+	clear: both;
+	margin-top: 60px;
+}
+.dsj .left{
+	width: 660px;
+	float: left;
+}
+.dsj h6{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.dsj h6 span{
+	padding: 0 15px
+}
+.dsj .right{
+	width: 310px;
+	float: left;
+}
+.dsj .right p span{
+	padding: 0 7px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.dsj .right .le{
+	width: 155px;
+	float: left;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.dsj .right .le li{
+	height: 20px;
+	margin-bottom: 5px;
+}
+.dsj .right li span{
+	padding: 0 5px;
+	background: red;
+}
+.dsj .right li em{
+	padding-left: 5px;
+}
+.dsj .right p a{
+	font-size: 12px;
+	color: black;
+}
+.dsj .right p #a{
+	padding-left: 20px;
+}
+.dsj .right p{
+	margin-bottom: 20px;
+}
+.dsj .right .ppp{
+	margin-bottom: 20px;
+}
+.huiyuan{
+	clear: both;
+	margin-top: 40px;
+}
+.huiyuan .le{
+	width: 660px;
+	float: left;
+}
+.huiyuan li{
+	background: url(tp/taijixia.jpg) no-repeat;
+	float: left;
+	width: 200px;
+	height: 110px;
+	margin-right: 20px;
+}
+.huiyuan li .p1{
+	font-size: 14px;
+	margin-top: 27px;
+	line-height: 21px;
+	color: #FFF;
+}
+.huiyuan li .p2{
+	font-size: 12px;
+	line-height: 17px;
+	color: #A8ADB0;
+}
+.huiyuan .re{
+	float: left;
+	width: 310px;
+}
+.huiyuan .re div{
+	margin-top: 25px;
+	float: left;
+}
+.huiyuan .dv{
+	padding-left: 5px;
+}
+.yidi li{
+	background: url(tp/异地恋.jpg) no-repeat left center;
+	padding-left: 100px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.yidi li p{
+	font-size: 14px;
+	line-height: 14px;
+}
+.yinyue{
+	clear: both;
+	padding-top: 20px;
+}
+.yinyue .left{
+	float: left;
+	width: 660px;
+}
+.yinyue .left li{
+	width: 200px;
+	height: 167px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: #F5F5F5;
+	font-size: 14px;
+	color: #535353;
+}
+.yinyue .left li p{
+	height: 20px;
+	line-height: 20px;
+}
+.yinyue .left li span{
+	padding-left: 15px;
+	font-size: 12px;
+}
+.yinyue .left li .sp1{
+	background: url(tp/sm.jpg) no-repeat left center;
+}
+.yinyue .left li .sp2{
+	background: url(tp/登录.jpg) no-repeat left center;
+}
+.yinyue .right{
+	width: 310px;
+	float: left;
+}
+.yinyue .right p{
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #535353;
+}
+.yinyue .right p span{
+	padding: 0 9px;
+}
+.yinyue .right ul{
+	margin-top: 20px;
+}
+.yinyue .right li{
+	height: 21px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+.yinyue .right li .s1{
+	background: red;
+	padding: 2px 5px;
+	font-size: 12px;
+}
+.yinyue .right li .s2{
+	padding-left: 9px;
+}
+.yinyue .right li .s3{
+	float: right;
+}
+.yinyue .right{
+	font-size: 12px;
+	font-family: "宋体";
+	height: 17px;
+	line-height: 17px;
+	margin-top: 10px;
+}
+.yinyue .right a{
+	color: #535353;
+}
+.yinyue .right .yd li{
+height: 50px;
+background: url(tp/异地恋.jpg) no-repeat left center;
+padding-left: 100px;
+}
+.yinyue .right .yd .li{
+	margin-top: 10px;
+}
+.con2{
+	clear: both;
+	margin-top: 20px;
+}
+.con2 .ll{
+	width: 660px;
+}
+.con2 .ll h5{
+	font-size: 26px;
+	color: #8F8F8F;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 23px;
+}
+.con2 .ll h5 span{
+	padding-right: 160px;
+}
+.con2 .ll li{
+	width: 200px;
+	height: 110px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.con2 .ll li .p1{
+	position: absolute;
+	top: 70px;
+	left: 5px;
+	font-size: 14px;
+	color: #ffff;
+	height: 21px;
+	line-height: 31px;
+}
+.con2 .ll li .p2{
+	position: absolute;
+	left: 5px;
+	bottom: 0;
+	color: #ffff;
+}
+.con2 .ll li span{
+	padding-left: 15px;
+	background: url(tp/sm.jpg) no-repeat left center;
+}
+.con2 .rr{
+	width: 310px;
+	float: left;
+}
+.con2 .rr h6{
+	margin-top: -180px;
+}
+.con2 .rr h6 a{
+	padding: 0 10px;
+}
+.con2 .rr .rrp{
+	margin-bottom: 20px;
+}
+.con2 .rr div{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.con2 .rr .mr{
+	margin-right: 10px;
+}
+.con2 .rr div p{
+	font-size: 14px;
+	color: #535353;
+	height: 30px;
+	line-height: 30px;
+}
+.hh span{
+	color: #A9A9A9;
+	font-size: 14px;
+	padding: 0 10px;
+
+}
+
+.haohan{
+	font-size: 0;
+	margin-top: 30px;
+	width: 310px;
+}
+.haohan p{
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.haohan .p{
+	margin-right: 0;
+}
+.shipin{
+	clear: both;
+	padding-top: 30px;
+}
+.shipin .left{
+	width: 660px;
+	float: left;
+}
+.shipin .left ul{
+	margin-bottom: 33px;
+}
+.shipin .left li{
+	width: 200px;
+	height: 110px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.shipin .left li .lp{
+	position: absolute;
+	left: 3px;
+	bottom: 20px;
+	font-size: 14px;
+	color: #ffff;
+}
+.shipin .left li .llp{
+	position: absolute;
+	left: 3px;
+	bottom: 0px;
+	font-size: 14px;
+	color: #ffff;
+	padding-left: 15px;
+	background: url(tp/sm.jpg) no-repeat left center;
+}
+.shipin .bottom{
+	clear: both;
+	width: 660px;
+	padding-top: 33px;
+}
+
+.shipin .bottom li{
+	width: 300px;
+	height: 22px;
+	line-height: 22px;
+	display: inline-block;
+	padding-left: 10px;
+	background: url(tp/dian.gif) no-repeat left center;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.shipin .right{
+	width: 310px;
+	float: left;
+}
+.shipin .right li{
+	height: 50px;
+	padding-left: 100px;
+	background: url(tp/异地恋.jpg) no-repeat left center;
+	margin-bottom: 10px;
+}
+.donggan{
+	clear: both;
+	padding-top: 44px;
+	padding: 11px;
+	border-bottom: 2px solid #DCDCDC;
+}
+.foot{
+	clear: both;
+	margin-top: 40px;
+}
+.foot .le{
+	width: 496px;
+	float: left;
+}
+.foot .le li{
+	height: 26px;
+	width: 240px;
+	display: inline-block;
+	line-height: 26px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #8F8F8F;
+}
+.foot .le li span{
+	color: #545454;
+}
+.foot .ri{
+	width: 470px;
+	float: left;
+}
+.foot .ri li{
+	width: 90px;
+	height: 26px;
+	display: inline-block;
+	line-height: 26px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #8F8F8F;
+}
+.foot .ri li a{
+	color: #545454;
+}
+.foot .bo{
+	clear: both;
+	padding-top: 40px;
+}
+.foot .bo ul{
+	width: 710px;
+	float: left;
+	font-size: 0;
+}
+.foot .bo ul li{
+	font-size: 12px;
+	color: #8F8F8F;
+	display: inline-block;
+	width: 153px;
+	height: 26px;
+	line-height: 26px;
+	font-family: "宋体";
+}
+.foot .bo ul .li{
+	width: 289px;
+}
+.foot .bo .rt{
+	float: left;
+	margin-left: 10px;
+	height: 94px;
+	background: url(tp/erweima.jpg) no-repeat left center;
+	padding-left: 120px;
+}
+.foot .bo .rt p{
+	font-size: 16px;
+	height: 45px;
+	line-height: 45px;
+}
+.footer{
+	clear: both;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	padding-top: 50px;
+	color: #8F8F8F;
+}
+.footer a{
+	font-weight: bold;
+	color: black;
+}
